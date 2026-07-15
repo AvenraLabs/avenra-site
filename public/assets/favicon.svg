@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Avenra logo">
+  <rect width="64" height="64" rx="16" fill="#0F1330"/>
+  <path d="M20 18h10.8c8.4 0 15.2 6.8 15.2 15.2S39.2 48.4 30.8 48.4H20z" fill="#3D4EF6"/>
+  <path d="M20 18v30.4h-6.2V18z" fill="#0EA37F"/>
+</svg>

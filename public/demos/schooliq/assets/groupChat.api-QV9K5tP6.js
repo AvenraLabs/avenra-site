@@ -1,0 +1,1 @@
+import{a}from"./index-DwzPh8t0.js";const s=()=>a.get("/group-chat"),o=t=>a.post("/group-chat",t),p=t=>a.get(`/group-chat/${t}/messages`),r=t=>a.delete(`/group-chat/${t}`);export{p as a,o as c,r as d,s as g};

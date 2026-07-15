@@ -1,0 +1,1 @@
+import{a as t}from"./index-DwzPh8t0.js";const a=()=>t.get("/timetables/teacher/me"),n=e=>t.post("/timetables",e),c=()=>t.get("/teacher-assignments/teacher/me"),i=e=>t.get(`/teacher-assignments/section/${e}`),m=(e={})=>t.get("/timetables/section",{params:e});export{c as a,i as b,m as c,a as g,n as s};

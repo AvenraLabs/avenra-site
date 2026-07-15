@@ -14,7 +14,7 @@ export const metadata = {
     "Avenra builds custom web & mobile apps, ERP/CRM systems, AI voice agents, and SaaS products. Based in Coimbatore, Tamil Nadu.",
   authors: [{ name: "Avenra" }],
   icons: {
-    icon: "/assets/favicon.svg",
+    icon: "/assets/avenra.jpeg",
     apple: "/assets/avenra.jpeg",
   },
 };

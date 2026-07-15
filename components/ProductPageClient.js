@@ -326,7 +326,7 @@ export default function ProductPageClient() {
       {/* ============ FEATURE: STUDENT PERFORMANCE ANALYTICS ============ */}
       <section className="bg-deep" style={{ padding: "80px 0" }}>
         <div className="container">
-          <div className="feature-row reverse reveal is-visible" style={{ display: "grid", gridTemplateColumns: "1.1fr 0.9fr", gap: "64px", alignItems: "center" }}>
+          <div className="feature-row feature-row-product reverse reveal is-visible" style={{ alignItems: "center" }}>
             <div className="feature-copy">
               <p className="eyebrow teal">Academic growth</p>
               <h3 className="h2" style={{ margin: "0 0 16px 0", fontSize: "2rem", fontFamily: "var(--font-display)", fontWeight: "700" }}>

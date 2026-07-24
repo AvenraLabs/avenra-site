@@ -1,12 +1,12 @@
 import ProductPageClient from "@/components/ProductPageClient";
 
 export const metadata = {
-  title: "Avenra Products — Interactive Demos & SaaS Portfolio | Coimbatore",
+  title: "Avenra Products - Interactive Demos & SaaS Portfolio | Coimbatore",
   description:
     "Explore our flagship SaaS products and client deliverables. Interact with the live mobile sandbox of SchoolIQ, our AI-powered school ERP.",
   alternates: { canonical: "https://avenra.org/product" },
   openGraph: {
-    title: "Avenra Products — Interactive Demos & SaaS Portfolio",
+    title: "Avenra Products - Interactive Demos & SaaS Portfolio",
     description:
       "Explore our flagship SaaS products and client deliverables. Interact with the live mobile sandbox of SchoolIQ, our AI-powered school ERP.",
     type: "website",
@@ -17,7 +17,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Avenra Products — Interactive Demos & SaaS Portfolio",
+    title: "Avenra Products - Interactive Demos & SaaS Portfolio",
     description:
       "Explore our flagship SaaS products and client deliverables. Interact with the live mobile sandbox of SchoolIQ, our AI-powered school ERP.",
     images: ["https://avenra.org/assets/avenra.jpeg"],

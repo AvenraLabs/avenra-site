@@ -2,23 +2,23 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact Avenra — Software & AI Studio | Coimbatore, Tamil Nadu",
+  title: "Contact Avenra - Software & AI Studio | Coimbatore, Tamil Nadu",
   description:
     "Get in touch with Avenra, a software studio in Coimbatore, Tamil Nadu. We build custom web apps, ERP/CRM, AI voice agents, and SaaS products. Tell us about your project and we reply within a day or two.",
   alternates: { canonical: "https://avenra.org/contact" },
   openGraph: {
-    title: "Contact Avenra — Software & AI Studio, Coimbatore",
+    title: "Contact Avenra - Software & AI Studio, Coimbatore",
     description:
       "Tell us about your school, your business, or your project. Based in Coimbatore, Tamil Nadu, working with clients across India and worldwide. We reply within a day or two.",
     type: "website",
     url: "https://avenra.org/contact",
-    images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra — Software & AI Studio, Coimbatore" }],
+    images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra - Software & AI Studio, Coimbatore" }],
     siteName: "Avenra",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Avenra — Software & AI Studio, Coimbatore",
+    title: "Contact Avenra - Software & AI Studio, Coimbatore",
     description:
       "Tell us about your project. Based in Coimbatore, Tamil Nadu. We reply within a day or two, no sales queue.",
     images: ["https://avenra.org/assets/avenra.jpeg"],
@@ -36,7 +36,7 @@ export default function ContactPage() {
           </h1>
           <p className="lede reveal" style={{ marginTop: 18 }}>
             Tell us about your school, your business, or your project. We
-            reply within a day or two — no sales queue.
+            reply within a day or two, with no sales queue.
           </p>
         </div>
       </section>

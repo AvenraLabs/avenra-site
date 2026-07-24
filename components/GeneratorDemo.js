@@ -7,16 +7,16 @@ const CLASSES = ["6", "7", "8", "9", "10"];
 const TEMPLATES = [
   {
     rows: [
-      ["Section A — 10 MCQs", "20 marks"],
-      ["Section B — 5 short answers", "40 marks"],
-      ["Section C — 2 long answers", "40 marks"],
+      ["Section A - 10 MCQs", "20 marks"],
+      ["Section B - 5 short answers", "40 marks"],
+      ["Section C - 2 long answers", "40 marks"],
     ],
   },
   {
     rows: [
-      ["Section A — 8 fill-in-the-blanks", "16 marks"],
-      ["Section B — 6 short answers", "42 marks"],
-      ["Section C — 3 diagrams & explain", "42 marks"],
+      ["Section A - 8 fill-in-the-blanks", "16 marks"],
+      ["Section B - 6 short answers", "42 marks"],
+      ["Section C - 3 diagrams & explain", "42 marks"],
     ],
   },
 ];
@@ -47,7 +47,7 @@ export default function GeneratorDemo() {
     <div className="gen-card">
       <div className="gen-head">
         <span className="dot"></span>
-        <span>Question Paper Generator — try it</span>
+        <span>Question Paper Generator - try it</span>
       </div>
       <div className="gen-field">
         <span className="gen-label">Class</span>

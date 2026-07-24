@@ -7,7 +7,7 @@ import Faq from "./Faq";
 const faqItems = [
   {
     q: "Can SchoolIQ be customized for our school's workflow?",
-    a: "Yes. SchoolIQ is built to adapt to your class structure, grading system, and existing processes — not the other way around. Custom fields, extra portals, and new integrations are all on the table.",
+    a: "Yes. SchoolIQ is built to adapt to your class structure, grading system, and existing processes. Custom fields, extra portals, and new integrations are all on the table.",
   },
   {
     q: "How long does setup take?",
@@ -15,11 +15,11 @@ const faqItems = [
   },
   {
     q: "Is our data secure?",
-    a: "Student and staff data sits behind role-based access, so a teacher sees their classes and an admin sees the school — never more than each role needs.",
+    a: "Student and staff data sits behind role-based access. Teachers see their classes and admins see the whole school, never more than each role needs.",
   },
   {
     q: "What does it cost?",
-    a: "A one-time onboarding fee covers setup, data migration, and branding your instance with your school's name and logo. After that, it's a single annual license — no hidden per-module charges.",
+    a: "A one-time onboarding fee covers setup, data migration, and branding your instance with your school's name and logo. After that, it's a single annual license with no hidden per-module charges.",
   },
 ];
 
@@ -28,7 +28,7 @@ const checklistItems = [
   "Exam & grade management",
   "AI question paper generator",
   "AI tutor chat (English & Tamil)",
-  "Quiz zone — single & multiplayer",
+  "Quiz zone - single & multiplayer",
   "Live bus GPS tracking",
   "WhatsApp notifications",
   "Timetable management",
@@ -40,7 +40,67 @@ const checklistItems = [
   "WhatsApp periodic progress reports to parents",
 ];
 
+const newWorkflowItems = [
+  "Fee structure, ledgers & PDF payment receipts",
+  "Digital library & book circulation tracking",
+  "Lesson plans, worksheets & quizzes in minutes",
+  "Engaging video lessons for difficult topics",
+  "Ask questions from CBSE & state-board textbooks",
+  "Real-time class & subject group chats",
+  "Campus Lost & Found portal",
+  "Parent feedback & grievance redressal workflow",
+  "Safe and controlled AI use for every account",
+  "Profile changes with admin approval workflow",
+];
+
 const schoolLoveFeatures = [
+  {
+    title: "Complete Fee & Ledger Management",
+    desc: "Manage term-wise fee schedules, custom tuition, transport and lab categories, pending dues, automated PDF receipts, and instant parent payment reminders.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <path d="M7 8h10M7 12h6M7 16h4" />
+        <circle cx="17" cy="16" r="2" />
+      </svg>
+    ),
+    badge: "Zero Revenue Leakage"
+  },
+  {
+    title: "Smart Library & Cataloging",
+    desc: "Catalog books by ISBN, author, category and shelf; track issue and return dates, overdue alerts, student limits, and complete reading history.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z" />
+        <path d="M8 7h8M8 11h6" />
+      </svg>
+    ),
+    badge: "Automated Circulation"
+  },
+  {
+    title: "Lesson Prep & Video Lessons in Minutes",
+    desc: "Help teachers turn difficult topics into lesson plans, worksheets, quizzes, summaries, and engaging video lessons without starting from a blank page.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="m10 9 5 3-5 3V9Z" />
+        <path d="M6 2v2M18 2v2" />
+      </svg>
+    ),
+    badge: "More Time to Teach"
+  },
+  {
+    title: "Answers From the Books They Study",
+    desc: "Students and teachers can ask questions from CBSE and state-board textbooks, school policies, and curriculum material, then get clear answers they can trust.",
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 4h16v12H8l-4 4V4Z" />
+        <path d="M8 8h8M8 12h5" />
+      </svg>
+    ),
+    badge: "Confident Learning"
+  },
   {
     title: "Live GPS Bus Tracking",
     desc: "Parent peace of mind. Eliminates office phone spam during delays; parents track the bus live on Chennai maps with automatic proximity warnings.",
@@ -78,7 +138,7 @@ const schoolLoveFeatures = [
   },
   {
     title: "AI Personal Tutor (Avenra AI)",
-    desc: "24/7 academic helper. Google Gemini safely explains complex topics, study tips, or homework in English and Tamil with admin token tracking.",
+    desc: "A 24/7 study helper that explains difficult topics, gives study tips, and supports homework in English and Tamil within school-set limits.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
@@ -86,7 +146,7 @@ const schoolLoveFeatures = [
         <line x1="12" y1="22.08" x2="12" y2="12"/>
       </svg>
     ),
-    badge: "AI-Powered Classroom"
+    badge: "Every Child Gets Help"
   },
   {
     title: "WhatsApp Absence Alerts",
@@ -124,21 +184,8 @@ const schoolLoveFeatures = [
     badge: "Zero Paper Waste"
   },
   {
-    title: "Bulk Account Generation",
-    desc: "Students and teachers will enter their data manually, managed by an approval-based onboarding flow.",
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-        <circle cx="9" cy="7" r="4" />
-        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-      </svg>
-    ),
-    badge: "Approval Flow"
-  },
-  {
-    title: "Progressive Web App (PWA)",
-    desc: "Zero storage space. Parents add the link to their homescreen instantly on iOS or Android. Includes an active child account switcher.",
+    title: "Works on Every Parent's Phone",
+    desc: "Parents can add SchoolIQ to their phone in seconds on iPhone or Android, with no app-store download and easy switching between children.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
         <rect x="5" y="2" width="14" height="20" rx="2"/>
@@ -148,6 +195,25 @@ const schoolLoveFeatures = [
     badge: "Works on Any Phone"
   }
 ];
+
+const featurePriority = [
+  "Student Performance Analytics",
+  "Lesson Prep & Video Lessons in Minutes",
+  "AI Personal Tutor (Avenra AI)",
+  "Live GPS Bus Tracking",
+  "Complete Fee & Ledger Management",
+  "Answers From the Books They Study",
+  "Teacher & Admin Insights",
+  "WhatsApp Absence Alerts",
+  "Quiz Games & Class Lobbies",
+  "Works on Every Parent's Phone",
+  "Digital Diary & Timetables",
+  "Smart Library & Cataloging",
+];
+
+const prioritizedSchoolLoveFeatures = [...schoolLoveFeatures].sort(
+  (a, b) => featurePriority.indexOf(a.title) - featurePriority.indexOf(b.title)
+);
 
 export default function ProductPageClient() {
   const [timeStr, setTimeStr] = useState("09:41");
@@ -176,12 +242,15 @@ export default function ProductPageClient() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <p className="eyebrow teal">Our Flagship Product</p>
-            <h1>SchoolIQ — one system to run your entire school.</h1>
+            <h1 style={{ fontSize: "clamp(2rem, 3.2vw, 2.8rem)", lineHeight: 1.12, maxWidth: "10ch" }}>
+              SchoolIQ - AI-powered SaaS platform.
+            </h1>
             <p className="lede">
-              Attendance, performance analytics, exams, timetables, transport, parent communication,
-              and AI features for every teacher and student: quiz battles,
-              RAG textbook chat, and lesson summaries. Replaces the five
-              different tools schools currently stitch together.
+              SchoolIQ by Avenra is an AI-powered school management SaaS for schools in Coimbatore, Chennai,
+              and across Tamil Nadu. Manage admissions, attendance, fees, transport, library, exams,
+              timetables, and parent communication from one platform. Give teachers AI tools to create lesson
+              plans, worksheets, quizzes, presentations, and educational videos in minutes, while school leaders
+              gain real-time insights into academic progress, teacher performance, and learning gaps.
             </p>
 
             {/* Quick Demo Access Credentials Box */}
@@ -269,7 +338,7 @@ export default function ProductPageClient() {
           <p className="lede lede-wide reveal is-visible" style={{ marginBottom: 32 }}>
             Every school we&apos;ve spoken with runs attendance on paper,
             marks on spreadsheets, and parent updates through personal
-            WhatsApp numbers. SchoolIQ puts all of it — and more — behind
+            WhatsApp numbers. SchoolIQ puts all of it in one place, behind
             one login.
           </p>
           <div
@@ -280,10 +349,18 @@ export default function ProductPageClient() {
             <span className="badge">Exams &amp; Grading</span>
             <span className="badge">Timetables</span>
             <span className="badge">Transport &amp; GPS</span>
-            <span className="badge">AI Quiz — Single &amp; Multiplayer</span>
+            <span className="badge">AI Quiz - Single &amp; Multiplayer</span>
             <span className="badge">Question Paper Generation</span>
             <span className="badge">Lesson Summary AI</span>
-            <span className="badge">RAG Textbook Chat</span>
+            <span className="badge">Textbook Question Help</span>
+            <span className="badge">Fee &amp; Ledger Management</span>
+            <span className="badge">Digital Library System</span>
+            <span className="badge">Video Lessons for Difficult Topics</span>
+            <span className="badge">Faster Lesson Preparation</span>
+            <span className="badge">Campus Lost &amp; Found</span>
+            <span className="badge">Real-Time Group Chat</span>
+            <span className="badge">Feedback &amp; Grievance Portal</span>
+            <span className="badge">Safe AI Use for Students</span>
             <span className="badge">Parent Alerts</span>
             <span className="badge">Performance Analytics</span>
             <span className="badge">WhatsApp Progress Reports</span>
@@ -303,8 +380,8 @@ export default function ProductPageClient() {
           </div>
 
           <div className="grid-3">
-            {schoolLoveFeatures.map((feat, index) => (
-              <div className="card reveal is-visible" key={index} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            {prioritizedSchoolLoveFeatures.map((feat) => (
+              <div className="card reveal is-visible" key={feat.title} style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div>
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
                     <div className="card-icon teal" style={{ margin: 0 }}>
@@ -336,7 +413,7 @@ export default function ProductPageClient() {
                 Our deep analytical dashboard is the primary driver of school sign-ups. Rather than waiting for parent-teacher meetings, SchoolIQ gives parents and teachers immediate visual diagnostics of a student&apos;s educational progress.
               </p>
               <p style={{ color: "var(--ink-soft)", lineHeight: "1.6", fontSize: "1rem", marginBottom: "20px" }}>
-                The system maps historical exam averages, highlights individual roll rank progression, and outputs an AI-driven radar graph of conceptual strengths and weaknesses. By diagnostic charting in math, science, and languages, lesson plans can adapt to each child&apos;s focus zones.
+                SchoolIQ turns marks into a clear, subject-by-subject picture of each child&apos;s strengths and gaps. Teachers can spot who needs help sooner, while principals see the classes and subjects that need extra support before results become a bigger concern.
               </p>
               <ul className="feature-list" style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                 <li>
@@ -399,13 +476,13 @@ export default function ProductPageClient() {
           <div className="reveal is-visible" style={{ maxWidth: "800px" }}>
             <p className="eyebrow teal">Desktop Dashboard</p>
             <h3 className="h2" style={{ margin: "0 0 16px 0", fontSize: "2rem", fontFamily: "var(--font-display)", fontWeight: "700" }}>
-              Dedicated Admin Panel with Class &amp; Section Analytics.
+              A Complete Admin Panel for Every School Workflow.
             </h3>
             <p style={{ color: "var(--ink-soft)", lineHeight: "1.6", fontSize: "1rem", marginBottom: "16px", maxWidth: "75ch" }}>
-              A centralized school management dashboard designed for desktop screens. Administrators can easily coordinate global configurations, publish school-wide announcements, manage account permissions, and access crucial management controls from one unified hub.
+              A centralized desktop dashboard gives administrators one place to run the school: manage student and staff records, admissions, fees, exams, timetables, transport, library operations, communication, and account access.
             </p>
             <p style={{ color: "var(--ink-soft)", lineHeight: "1.6", fontSize: "1rem", marginBottom: "24px", maxWidth: "75ch" }}>
-              A standout component is the <strong>school-wide classwise performance reports</strong>. Principals and admins can quickly review subject averages across all year groups, track student academic performance in real time, and identify sections that need extra resources or support.
+              Built for the work that keeps a school moving, it brings daily operations, approvals, reports, and institution-wide settings together without forcing admins to jump between separate tools.
             </p>
             
             <div style={{ display: "flex", flexWrap: "wrap", gap: "24px" }}>
@@ -413,19 +490,19 @@ export default function ProductPageClient() {
                 <svg className="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: "16px", height: "16px", color: "var(--teal)" }}>
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Announcements, global configurations, and account security controls.
+                Student, staff, admissions, and school-record management.
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.95rem" }}>
                 <svg className="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: "16px", height: "16px", color: "var(--teal)" }}>
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Detailed class-wise and section-wise performance reporting.
+                Fees, receipts, dues, exams, timetables, and transport operations.
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "0.95rem" }}>
                 <svg className="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ width: "16px", height: "16px", color: "var(--teal)" }}>
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Real-time metrics auditing across the entire institution.
+                Announcements, permissions, approvals, reports, and school-wide settings.
               </div>
             </div>
           </div>
@@ -450,15 +527,15 @@ export default function ProductPageClient() {
         </div>
       </section>
 
-      {/* ============ TWO FRONTENDS, ONE SYSTEM ============ */}
+      {/* ============ TWO INTERFACES, ONE SYSTEM ============ */}
       <section style={{ padding: "80px 0" }}>
         <div className="container">
           <div className="section-head reveal is-visible" style={{ textAlign: "center", margin: "0 auto 56px auto" }}>
             <p className="eyebrow">Under the Hood</p>
-            <h2>Two frontends. One login. Your school&apos;s own app.</h2>
+            <h2>Two interfaces. One login. Your school&apos;s own app.</h2>
             <p className="lede">
               SchoolIQ isn&apos;t a single screen stretched to fit every
-              role — it&apos;s built as two purpose-made frontends that
+              role. It&apos;s built as two purpose-made interfaces that
               share one account system.
             </p>
           </div>
@@ -472,8 +549,8 @@ export default function ProductPageClient() {
               </div>
               <h3>A PWA for students, teachers &amp; parents</h3>
               <p>
-                Installs straight from the browser like a real app — no App
-                Store, no Play Store, no update delays. One login, and the
+                Installs straight from the browser like a real app. No App
+                Store, no Play Store, and no update delays. One login, and the
                 dashboard adapts to whoever&apos;s signed in.
               </p>
             </div>
@@ -501,7 +578,7 @@ export default function ProductPageClient() {
               <h3>Launched under your school&apos;s name</h3>
               <p>
                 We re-skin the app with your school&apos;s name, logo, and
-                colors before launch — it opens and feels like your own
+                colors before launch. It opens and feels like your own
                 product, not &quot;another vendor app.&quot;
               </p>
             </div>
@@ -523,7 +600,7 @@ export default function ProductPageClient() {
             <span className="badge">Simple annual billing</span>
             <span className="badge">No native app store approvals</span>
             <span style={{ color: "var(--ink-soft)", fontSize: "0.92rem" }}>
-              We handle setup, data migration, and branding — you get a
+              We handle setup, data migration, and branding. You get a
               school app with your name on it, live in weeks.
             </span>
           </div>
@@ -538,7 +615,7 @@ export default function ProductPageClient() {
             <h2>One login. Every workflow.</h2>
           </div>
           <div className="check-grid reveal is-visible">
-            {checklistItems.map((item) => (
+            {[...checklistItems, ...newWorkflowItems].map((item) => (
               <div className="check-item" key={item}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <polyline points="20 6 9 17 4 12" />
@@ -555,7 +632,7 @@ export default function ProductPageClient() {
         <div className="container">
           <div className="section-head center reveal is-visible">
             <p className="eyebrow">Questions</p>
-            <h2>Before you ask —</h2>
+            <h2>Before you ask</h2>
           </div>
           <Faq items={faqItems} />
         </div>
@@ -568,7 +645,7 @@ export default function ProductPageClient() {
             <p className="eyebrow on-navy">Let&apos;s Talk</p>
             <h2>See SchoolIQ running on your own school&apos;s data.</h2>
             <p className="lede">
-              Book a 20-minute walkthrough. Bring your timetable — we&apos;ll
+              Book a 20-minute walkthrough. Bring your timetable and we&apos;ll
               show you how it looks inside SchoolIQ.
             </p>
             <div className="cta-actions">

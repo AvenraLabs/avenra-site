@@ -1,23 +1,23 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Avenra — Software & AI Studio in Coimbatore, Tamil Nadu",
+  title: "About Avenra - Software & AI Studio in Coimbatore, Tamil Nadu",
   description:
     "Avenra is a software studio in Coimbatore, Tamil Nadu, building custom web & mobile apps, ERP/CRM systems, AI voice agents, and SaaS products for clients across India and worldwide. SchoolIQ is our flagship product.",
   alternates: { canonical: "https://avenra.org/about" },
   openGraph: {
-    title: "About Avenra — Software & AI Studio, Coimbatore",
+    title: "About Avenra - Software & AI Studio, Coimbatore",
     description:
       "A software studio in Coimbatore building custom apps, ERP/CRM, AI voice agents, and SaaS products for teams worldwide, and the makers of SchoolIQ.",
     type: "website",
     url: "https://avenra.org/about",
-    images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra — Software & AI Studio, Coimbatore" }],
+    images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra - Software & AI Studio, Coimbatore" }],
     siteName: "Avenra",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Avenra — Software & AI Studio, Coimbatore",
+    title: "About Avenra - Software & AI Studio, Coimbatore",
     description:
       "A software studio in Coimbatore, Tamil Nadu: custom apps, ERP/CRM, AI voice agents, SaaS products, and the makers of SchoolIQ.",
     images: ["https://avenra.org/assets/avenra.jpeg"],
@@ -96,7 +96,7 @@ export default function AboutPage() {
               <p>
                 We treat AI as a feature that saves real time: a voice agent
                 that answers your calls, automated workflows, AI-powered
-                SaaS features, faster reporting — not a buzzword bolted onto
+                SaaS features and faster reporting, not a buzzword bolted onto
                 a landing page.
               </p>
             </div>

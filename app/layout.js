@@ -2,17 +2,29 @@ import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import WhatsAppFab from "@/components/WhatsAppFab";
+import AvenraAssistant from "@/components/AvenraAssistant";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata = {
   metadataBase: new URL("https://avenra.org"),
   title: {
-    default: "Avenra — Custom Software, AI Voice Agents & SaaS Development",
+    default: "Avenra | SchoolIQ SaaS, Custom Software & Digital Growth in Coimbatore, Chennai, Tamil Nadu",
     template: "%s | Avenra",
   },
   description:
-    "Avenra builds custom web & mobile apps, ERP/CRM systems, AI voice agents, and SaaS products. Based in Coimbatore, Tamil Nadu.",
+    "Avenra builds SchoolIQ, custom web and mobile apps, ERP/CRM systems, AI voice agents, and SEO-focused digital growth solutions for schools, SaaS, and ecommerce businesses in Coimbatore, Chennai, and Tamil Nadu.",
+  keywords: [
+    "Avenra",
+    "SchoolIQ",
+    "custom software Coimbatore",
+    "SaaS development Tamil Nadu",
+    "ERP CRM development",
+    "SEO services Coimbatore",
+    "ecommerce website development",
+  ],
   authors: [{ name: "Avenra" }],
+  creator: "Avenra",
+  publisher: "Avenra",
   icons: {
     icon: "/assets/avenra.jpeg",
     apple: "/assets/avenra.jpeg",
@@ -34,6 +46,7 @@ export default function RootLayout({ children }) {
         <Nav />
         <main>{children}</main>
         <Footer />
+        <AvenraAssistant />
         <WhatsAppFab />
         <ScrollReveal />
       </body>

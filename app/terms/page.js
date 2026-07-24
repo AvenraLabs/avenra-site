@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Terms of Use — Avenra",
+  title: "Terms of Use - Avenra",
   description:
     "Terms of use for the Avenra website. Client engagements and product subscriptions are governed by separate signed agreements.",
   robots: "index, follow",
   alternates: { canonical: "https://avenra.org/terms" },
   openGraph: {
-    title: "Terms of Use — Avenra",
+    title: "Terms of Use - Avenra",
     description: "Terms of use for the Avenra website.",
     type: "website",
     url: "https://avenra.org/terms",

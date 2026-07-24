@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Privacy Policy — Avenra",
+  title: "Privacy Policy - Avenra",
   description:
     "How Avenra collects, uses, and protects your data on avenra.org and across our services.",
   robots: "index, follow",
   alternates: { canonical: "https://avenra.org/privacy" },
   openGraph: {
-    title: "Privacy Policy — Avenra",
+    title: "Privacy Policy - Avenra",
     description: "How Avenra collects, uses, and protects your data.",
     type: "website",
     url: "https://avenra.org/privacy",

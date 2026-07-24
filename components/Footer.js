@@ -28,7 +28,7 @@ export default function Footer() {
             <h4>Product</h4>
             <ul>
               <li>
-                <Link href="/product">SchoolIQ</Link>
+              <Link href="/">SchoolIQ</Link>
               </li>
               <li>
                 <Link href="/contact">Book a demo</Link>
@@ -38,6 +38,9 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Company</h4>
             <ul>
+              <li>
+                <Link href="/services">Services</Link>
+              </li>
               <li>
                 <Link href="/about">About</Link>
               </li>

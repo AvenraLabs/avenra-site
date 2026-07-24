@@ -2,14 +2,14 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact Avenra - Software & AI Studio | Coimbatore, Tamil Nadu",
+  title: "Contact Avenra - Remote-first Software & AI Studio",
   description:
-    "Get in touch with Avenra, a software studio in Coimbatore, Tamil Nadu. We build custom web apps, ERP/CRM, AI voice agents, and SaaS products. Tell us about your project and we reply within a day or two.",
+    "Get in touch with Avenra, a remote-first software studio building custom web apps, ERP/CRM, AI voice agents, and SaaS products. Tell us about your project and we reply within a day or two.",
   alternates: { canonical: "https://avenra.org/contact" },
   openGraph: {
-    title: "Contact Avenra - Software & AI Studio, Coimbatore",
+    title: "Contact Avenra - Remote-first Software & AI Studio",
     description:
-      "Tell us about your school, your business, or your project. Based in Coimbatore, Tamil Nadu, working with clients across India and worldwide. We reply within a day or two.",
+      "Tell us about your school, your business, or your project. Remote-first and working with clients across India and worldwide. We reply within a day or two.",
     type: "website",
     url: "https://avenra.org/contact",
     images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra - Software & AI Studio, Coimbatore" }],
@@ -18,9 +18,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Avenra - Software & AI Studio, Coimbatore",
+    title: "Contact Avenra - Remote-first Software & AI Studio",
     description:
-      "Tell us about your project. Based in Coimbatore, Tamil Nadu. We reply within a day or two, no sales queue.",
+      "Tell us about your project. Remote-first and responsive. We reply within a day or two, no sales queue.",
     images: ["https://avenra.org/assets/avenra.jpeg"],
   },
 };
@@ -77,7 +77,7 @@ export default function ContactPage() {
                   <p className="small-caption" style={{ marginBottom: 4 }}>
                     LOCATION
                   </p>
-                  <span style={{ fontWeight: 600 }}>Tamil Nadu, India</span>
+                  <span style={{ fontWeight: 600 }}>Remote-first team</span>
                   <span
                     style={{
                       display: "block",
@@ -87,7 +87,7 @@ export default function ContactPage() {
                       marginTop: 2,
                     }}
                   >
-                    Remote-first. We work with schools &amp; teams globally.
+                    Distributed across India, working with schools &amp; teams globally.
                   </span>
                 </div>
               </div>

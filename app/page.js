@@ -2,15 +2,15 @@ import ProductPageClient from "@/components/ProductPageClient";
 
 export const metadata = {
   metadataBase: new URL("https://avenra.org"),
-  title: "SchoolIQ by Avenra | AI School Management SaaS for Coimbatore, Chennai & Tamil Nadu",
+  title: "SchoolIQ by Avenra | AI School Management SaaS for Remote-first Schools",
   description:
-    "SchoolIQ by Avenra is an AI-powered school management SaaS for schools in Coimbatore, Chennai, and Tamil Nadu. Manage attendance, fees, exams, transport, parent communication, and learning tools in one platform.",
+    "SchoolIQ by Avenra is an AI-powered school management SaaS built by a remote-first team. Manage attendance, fees, exams, transport, parent communication, and learning tools in one platform.",
   keywords: [
     "SchoolIQ",
     "Avenra",
-    "school management software Coimbatore",
-    "school management software Chennai",
-    "school ERP software Tamil Nadu",
+    "remote school management software",
+    "AI school management SaaS",
+    "school ERP software",
     "AI school management SaaS",
     "school management system India",
     "student performance analytics",
@@ -37,7 +37,7 @@ export const metadata = {
   openGraph: {
     title: "SchoolIQ by Avenra | AI School Management SaaS for Coimbatore, Chennai & Tamil Nadu",
     description:
-      "Bring attendance, fees, exams, transport, parent communication, academic analytics, and AI learning tools into one school platform, designed for schools across Tamil Nadu and India.",
+      "Bring attendance, fees, exams, transport, parent communication, academic analytics, and AI learning tools into one school platform, designed for remote-first schools across India and beyond.",
     type: "website",
     url: "https://avenra.org/",
     images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "SchoolIQ by Avenra" }],
@@ -46,8 +46,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SchoolIQ by Avenra | AI School Management SaaS for Coimbatore, Chennai & Tamil Nadu",
-    description: "One platform for school operations, parent communication, analytics, and learning support, built for schools in Tamil Nadu and beyond.",
+    title: "SchoolIQ by Avenra | AI School Management SaaS for Remote-first Schools",
+    description: "One platform for school operations, parent communication, analytics, and learning support, built for remote-first schools across India.",
     images: ["https://avenra.org/assets/avenra.jpeg"],
   },
 };
@@ -61,14 +61,8 @@ const schoolIqJsonLd = {
       name: "Avenra",
       url: "https://avenra.org/",
       description:
-        "Avenra builds SchoolIQ, custom software, and digital growth products for schools, SaaS businesses, ERP/CRM teams, and ecommerce brands in Coimbatore, Chennai, and Tamil Nadu.",
-      areaServed: ["Coimbatore", "Chennai", "Tamil Nadu", "India"],
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Coimbatore",
-        addressRegion: "Tamil Nadu",
-        addressCountry: "IN",
-      },
+        "Avenra builds SchoolIQ, custom software, and digital growth products for schools, SaaS businesses, ERP/CRM teams, and ecommerce brands across India and beyond.",
+      areaServed: ["India", "Worldwide"],
     },
     {
       "@type": "SoftwareApplication",
@@ -77,7 +71,7 @@ const schoolIqJsonLd = {
       operatingSystem: "Web",
       url: "https://avenra.org/",
       description:
-        "AI-powered school management SaaS for attendance, fees, exams, transport, parent communication, academic analytics, and learning support for schools in Tamil Nadu and India.",
+        "AI-powered school management SaaS for attendance, fees, exams, transport, parent communication, academic analytics, and learning support for schools across India.",
       featureList: [
         "Attendance and absence alerts",
         "Fee and ledger management",

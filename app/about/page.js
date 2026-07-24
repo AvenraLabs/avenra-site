@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Avenra - Software & AI Studio in Coimbatore, Tamil Nadu",
+  title: "About Avenra - Remote-first Software & AI Studio",
   description:
-    "Avenra is a software studio in Coimbatore, Tamil Nadu, building custom web & mobile apps, ERP/CRM systems, AI voice agents, and SaaS products for clients across India and worldwide. SchoolIQ is our flagship product.",
+    "Avenra is a remote-first software studio building custom web & mobile apps, ERP/CRM systems, AI voice agents, and SaaS products for clients across India and worldwide. SchoolIQ is our flagship product.",
   alternates: { canonical: "https://avenra.org/about" },
   openGraph: {
-    title: "About Avenra - Software & AI Studio, Coimbatore",
+    title: "About Avenra - Remote-first Software & AI Studio",
     description:
-      "A software studio in Coimbatore building custom apps, ERP/CRM, AI voice agents, and SaaS products for teams worldwide, and the makers of SchoolIQ.",
+      "A remote-first software studio building custom apps, ERP/CRM, AI voice agents, and SaaS products for teams worldwide, and the makers of SchoolIQ.",
     type: "website",
     url: "https://avenra.org/about",
     images: [{ url: "https://avenra.org/assets/avenra.jpeg", alt: "Avenra - Software & AI Studio, Coimbatore" }],
@@ -17,9 +17,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Avenra - Software & AI Studio, Coimbatore",
+    title: "About Avenra - Remote-first Software & AI Studio",
     description:
-      "A software studio in Coimbatore, Tamil Nadu: custom apps, ERP/CRM, AI voice agents, SaaS products, and the makers of SchoolIQ.",
+      "A remote-first software studio: custom apps, ERP/CRM, AI voice agents, SaaS products, and the makers of SchoolIQ.",
     images: ["https://avenra.org/assets/avenra.jpeg"],
   },
 };
@@ -31,29 +31,43 @@ export default function AboutPage() {
         <div className="container" style={{ maxWidth: 820 }}>
           <p className="eyebrow reveal">About Avenra</p>
           <h1 className="reveal" style={{ marginTop: 16 }}>
-            A small studio. One live product. Whatever you need us to build
-            next.
+            Founder-led SaaS and AI software, built remote.
           </h1>
           <p className="lede reveal" style={{ maxWidth: "none", marginTop: 22 }}>
-            We design and build custom web apps, mobile apps, ERP/CRM
-            systems, and AI voice agents for clients across industries, from
-            Tamil Nadu and remotely worldwide. SchoolIQ, the SaaS we built
-            and run in-house, is where we prove it: shipped end-to-end,
-            database to AI, because we wanted proof, not a pitch deck.
+            Avenra is led by founder Aravindh, who built SchoolIQ to solve the real operational
+            problems schools face every day. We deliver premium, practical SaaS,
+            ERP/CRM, mobile apps, and AI systems with a product mindset, not a checklist.
           </p>
           <div className="stat-row reveal" style={{ marginTop: 44 }}>
-            <div className="stat">
-              <b>SchoolIQ</b>
-              <span>Live SaaS, shipped end-to-end</span>
-            </div>
             <div className="stat">
               <b>Founder-led</b>
               <span>Talk to who builds it</span>
             </div>
             <div className="stat">
-              <b>Remote</b>
-              <span>Clients across India &amp; worldwide</span>
+              <b>SchoolIQ</b>
+              <span>Live SaaS, shipped end-to-end</span>
             </div>
+            <div className="stat">
+              <b>Remote-first team</b>
+              <span>Distributed across India</span>
+            </div>
+          </div>
+          <div className="founder-card reveal" style={{ marginTop: 40, padding: "28px", borderRadius: "20px", border: "1px solid rgba(255,255,255,0.08)", background: "rgba(255,255,255,0.03)" }}>
+            <h2 style={{ marginBottom: "16px" }}>Meet the founder</h2>
+            <p>
+              Aravindh founded Avenra to build software that solves real school and business problems,
+              not just to showcase technology. His focus is on clear outcomes, fast delivery, and
+              software that feels premium yet practical for customers in Tamil Nadu, India and beyond.
+            </p>
+            <p style={{ marginTop: "16px" }}>
+              If you want this page to be stronger, tell me:
+              <ul style={{ marginTop: "12px", paddingLeft: "18px" }}>
+                <li>Your core experience or background</li>
+                <li>Why you started Avenra</li>
+                <li>The first problem you solved with SchoolIQ</li>
+                <li>Any customer results or trust signals you want to highlight</li>
+              </ul>
+            </p>
           </div>
         </div>
       </section>

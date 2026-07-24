@@ -70,6 +70,15 @@ export default function Footer() {
                   LinkedIn
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/aravindh99/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Aravindh, Founder LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -239,11 +239,11 @@ export default function ProductPageClient() {
     <>
       {/* ============ HERO (WITH INTEGRATED PHONE EMULATOR) ============ */}
       <section className="hero" style={{ paddingBottom: "60px" }}>
-        <div className="container hero-grid">
+        <div className="container hero-grid" style={{ gap: "3rem" }}>
           <div className="hero-copy">
             <p className="eyebrow teal">Our Flagship Product</p>
-            <h1 style={{ fontSize: "clamp(2rem, 3.2vw, 2.8rem)", lineHeight: 1.12, maxWidth: "10ch" }}>
-              SchoolIQ - AI-powered SaaS platform.
+            <h1 style={{ fontSize: "clamp(1.95rem, 3vw, 2.4rem)", lineHeight: 1.06, maxWidth: "12ch", marginBottom: "0.8rem" }}>
+              SchoolIQ — AI-powered SaaS for schools.
             </h1>
             <p className="lede">
               SchoolIQ by Avenra is an AI-powered school management SaaS for schools in Coimbatore, Chennai,
@@ -283,7 +283,7 @@ export default function ProductPageClient() {
           </div>
 
           {/* Phone Emulator visual in Hero */}
-          <div className="hero-visual" style={{ display: "flex", justifyContent: "center" }}>
+          <div className="hero-visual" style={{ display: "flex", justifyContent: "center", marginTop: "1.5rem" }}>
             <div className="phone-mockup-wrapper">
               <div className="phone-mockup">
                 {/* Status Bar */}
